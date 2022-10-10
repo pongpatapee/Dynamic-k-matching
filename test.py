@@ -6,7 +6,7 @@ import torch
 import os
 os.environ["CUDA_VISIBLE_DEVICES"]="-1"    
 
-from dynamic_k_tf import dynamic_k_matching
+from dynamic_k_tf_non_graph import dynamic_k_matching
 from dynamic_k_torch import dynamic_k_matching_pytorch
 
 def test_tf_torch_diff_dynamic_k():
